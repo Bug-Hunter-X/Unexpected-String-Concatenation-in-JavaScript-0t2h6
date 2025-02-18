@@ -1,0 +1,1 @@
+function foo(a,b){if(typeof a === 'number' && typeof b === 'number'){return a+b;}else{return 'Error:Operands must be numbers';}}console.log(foo(2,3)); //output 5console.log(foo(2,"3")); //output Error:Operands must be numbersconsole.log(foo("2",3)); //output Error:Operands must be numbersconsole.log(foo("2","3")); //output Error:Operands must be numbers
